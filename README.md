@@ -77,3 +77,125 @@ Loading the Kali Linux VirtualBox image File.
 3. Open the folder and you will get 2 file types, 1.VirtualBox Machine Defination and 2.Virtual Disk Image File.Du need to double click on 'VirtualBox Machine Defination' Type file.
 4. Oracle VirtualBox gets opened, Click on 'Start' to Turn on the Virtual Machine.Its going to take a when u are booting it for the First time.
 5. After sucessful booting, Enter Username and password as 'kali'.
+
+DAY 4
+
+### 1. **IPv4 (Internet Protocol version 4)**
+
+* **Definition**: IPv4 is the fourth version of the Internet Protocol used to identify devices on a network using an addressing system.
+* **Address Format**: 32-bit address (e.g., `192.168.1.1`)
+* **Total Addresses**: About **4.3 billion** unique addresses.
+* **Structure**: Written in **dot-decimal notation** (four numbers separated by dots).
+* **Limitation**: Because of the growing number of internet devices, IPv4 addresses are running out.
+
+---
+
+### 2. **IPv6 (Internet Protocol version 6)**
+
+* **Definition**: IPv6 is the newer version of the Internet Protocol designed to replace IPv4.
+* **Address Format**: 128-bit address (e.g., `2001:0db8:85a3:0000:0000:8a2e:0370:7334`)
+* **Total Addresses**: Around **340 undecillion** (virtually unlimited).
+* **Structure**: Written in **hexadecimal** and separated by colons.
+* **Advantage**: Solves the IPv4 exhaustion problem and offers better routing and security features.
+
+---
+
+### 3. **MAC ID (Media Access Control Address)**
+
+* **Definition**: A MAC ID (or MAC address) is a **unique hardware identifier** assigned to a network interface card (NIC) by the manufacturer.
+* **Format**: 48-bit address, usually shown as `00:1A:2B:3C:4D:5E`
+* **Purpose**: Used for identifying devices within a **local network (LAN)**.
+* **Cannot Be Changed**: It's a physical address tied to the device (though it can be spoofed).
+
+---
+
+### 4. **TCP (Transmission Control Protocol)**
+
+* **Definition**: TCP is a **connection-oriented** protocol that ensures **reliable communication** between two devices.
+* **Features**:
+
+  * Data is sent in a sequence.
+  * Ensures data reaches correctly (error checking).
+  * Slower but **more reliable**.
+* **Examples**: Used in applications like **web browsing (HTTP/HTTPS)**, **email (SMTP)**, and **file transfers (FTP)**.
+
+---
+
+### 5. **UDP (User Datagram Protocol)**
+
+* **Definition**: UDP is a **connectionless** protocol used for fast, **non-reliable communication**.
+* **Features**:
+
+  * No error checking or guaranteed delivery.
+  * Much **faster** than TCP.
+* **Examples**: Used in **video streaming**, **online gaming**, and **VoIP (Voice over IP)**.
+
+---
+
+### Comparison Table:
+
+| Feature     | TCP                        | UDP                         |
+| ----------- | -------------------------- | --------------------------- |
+| Connection  | Connection-oriented        | Connectionless              |
+| Speed       | Slower                     | Faster                      |
+| Reliability | High (guaranteed delivery) | Low (no delivery guarantee) |
+| Use Case    | Email, Web browsing        | Gaming, Streaming           |
+
+---
+### 🔍 **Reconnaissance in Cybersecurity**
+
+**Definition**:
+**Reconnaissance** is the **first phase** of the ethical hacking or cyberattack lifecycle. It involves **gathering information** about a target system, network, or organization **before launching an attack**. Think of it like a thief studying a building before breaking in.
+
+---
+
+### 🧠 **Purpose of Reconnaissance**
+
+* To **understand the target's environment**
+* Identify **vulnerabilities**, **open ports**, **IP addresses**, **technologies used**
+* Reduce chances of **detection** during the actual attack
+* Plan effective attacks or penetration tests
+
+---
+
+### 🛠️ **Types of Reconnaissance**
+
+| Type              | Description                                                                                                                      |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Passive Recon** | Collecting info **without interacting** directly with the target. Example: looking at social media, WHOIS data, Google searches. |
+| **Active Recon**  | Directly engaging with the target to gather information. Example: scanning networks, pinging devices, port scanning.             |
+
+---
+
+### 🔧 **Common Recon Tools**
+
+| Tool             | Use                                                            |
+| ---------------- | -------------------------------------------------------------- |
+| **Nmap**         | Network scanning, open ports, services                         |
+| **Wireshark**    | Packet analysis (network traffic)                              |
+| **theHarvester** | Email, subdomain, and employee information gathering           |
+| **Maltego**      | Visual link analysis for people, companies, domains, and IPs   |
+| **Google Dorks** | Using advanced search techniques to find sensitive information |
+
+---
+
+### 🧾 **Examples of Information Collected**
+
+* IP address ranges
+* Subdomains
+* Open ports
+* Software versions
+* Employee names or emails
+* DNS records
+
+---
+
+### ⚠️ **Why It Matters**
+
+In ethical hacking, reconnaissance helps in:
+
+* Finding weak points before an attacker does
+* Strengthening defenses proactively
+* Simulating real-world attack planning for better security
+
+---
