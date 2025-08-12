@@ -199,3 +199,28 @@ In ethical hacking, reconnaissance helps in:
 * Simulating real-world attack planning for better security
 
 ---
+DAY 5
+---
+
+**Low Privilege User**
+A low privilege user is an account with minimal access rights and permissions, typically restricted to basic system usage such as opening approved applications, reading allowed files, and performing non-administrative tasks. This follows the *Principle of Least Privilege (PoLP)*, which aims to reduce security risks by limiting what each user can do. Even if compromised, such an account cannot directly make critical system changes or access sensitive data, helping contain potential damage. An example is a standard employee account without administrator rights.
+
+---
+
+**Security Operations Center (SOC)**
+A Security Operations Center (SOC) is a dedicated team or facility responsible for continuously monitoring, detecting, analyzing, and responding to cybersecurity threats in an organization. SOC analysts use tools such as SIEM systems, intrusion detection systems (IDS), and firewall logs to identify suspicious activities. The SOC’s main functions include real-time threat monitoring, incident response, threat intelligence gathering, and reporting on security incidents for compliance and management. Operating 24/7, SOCs act as the nerve center of an organization’s cybersecurity defense.
+
+---
+
+**Data Exfiltration**
+Data exfiltration refers to the unauthorized transfer of sensitive data from within a network to an external destination, often carried out by malicious insiders or external attackers. This can happen through methods such as malware sending data over the internet, unauthorized copying to USB drives, or sending confidential information via email. Data exfiltration is a serious security breach as it can lead to financial loss, reputational damage, and legal consequences. Preventive measures include data loss prevention (DLP) tools, encryption, strict access controls, and continuous monitoring of data movements.
+
+---
+
+**Privilege Escalation**
+Privilege escalation is the process of gaining higher access rights than initially granted, often exploited by attackers after obtaining entry into a low privilege account. There are two main types: *vertical escalation*, where a standard user gains administrative or root privileges, and *horizontal escalation*, where a user gains access to another user’s resources without higher privileges. Common techniques include exploiting software vulnerabilities, misconfigured permissions, and stealing credentials. Successful privilege escalation can lead to full system control, disabling of security measures, and easier execution of further attacks.
+
+
+
+
+
