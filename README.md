@@ -220,6 +220,16 @@ Data exfiltration refers to the unauthorized transfer of sensitive data from wit
 **Privilege Escalation**
 Privilege escalation is the process of gaining higher access rights than initially granted, often exploited by attackers after obtaining entry into a low privilege account. There are two main types: *vertical escalation*, where a standard user gains administrative or root privileges, and *horizontal escalation*, where a user gains access to another user’s resources without higher privileges. Common techniques include exploiting software vulnerabilities, misconfigured permissions, and stealing credentials. Successful privilege escalation can lead to full system control, disabling of security measures, and easier execution of further attacks.
 
+DAY 6
+
+
+---
+
+The OWASP Top 10 Web Application Security Risks (2021) highlights the most critical vulnerabilities found in modern applications. It introduces new categories, renaming, and restructuring to address evolving threats. The list is as follows: A01: Broken Access Control, which is the most common issue found in 94% of applications; A02: Cryptographic Failures, previously known as Sensitive Data Exposure, focusing on flaws in encryption; A03: Injection, covering SQL, NoSQL, and other injection flaws; A04: Insecure Design, a new category stressing the need for security at the design stage; A05: Security Misconfiguration, which remains a widespread risk; A06: Vulnerable and Outdated Components, addressing risks from outdated libraries and software; A07: Identification and Authentication Failures, formerly Broken Authentication, dealing with weak login mechanisms; A08: Software and Data Integrity Failures, another new category highlighting issues with untrusted code and CI/CD pipelines; A09: Security Logging and Monitoring Failures, stressing the importance of proper logging to detect attacks; and A10: Server-Side Request Forgery (SSRF), a newly added threat caused by improper handling of external requests. This list acts as a comprehensive guideline for organizations to strengthen their applications against the most pressing security risks.
+
+
+---
+
 
 
 
